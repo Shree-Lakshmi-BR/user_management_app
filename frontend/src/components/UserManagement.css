@@ -1,0 +1,95 @@
+.user-management-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 25px;
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+.user-management-container h2 {
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 1.8em;
+    color: #333;
+}
+
+.user-management-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.user-management-table th,
+.user-management-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+.user-management-table th {
+    background-color: #f7fafc;
+    color: #555;
+}
+
+.user-management-table td button {
+    padding: 8px 12px;
+    color: white;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.user-management-table td button:hover {
+    background-color: #45a049;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .user-management-container {
+        padding: 20px;
+        margin: 20px auto;
+    }
+
+    .user-management-container h2 {
+        font-size: 1.5em;
+    }
+
+    .user-management-table th,
+    .user-management-table td {
+        padding: 8px;
+        font-size: 0.9em;
+    }
+
+    .user-management-table td button {
+        padding: 6px 10px;
+        font-size: 0.9em;
+    }
+}
+
+@media (min-width: 769px) {
+    .user-management-container {
+        padding: 25px;
+    }
+
+    .user-management-container h2 {
+        font-size: 1.8em;
+    }
+
+    .user-management-table th,
+    .user-management-table td {
+        padding: 12px;
+        font-size: 1em;
+    }
+
+    .user-management-table td button {
+        padding: 8px 12px;
+        font-size: 1em;
+    }
+}
